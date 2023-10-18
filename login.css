@@ -1,0 +1,47 @@
+body {
+    height: 100vh;
+}
+section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 0.5rem;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+    border: 1px solid #2160ff;
+    transition: transform 0.2s;
+}
+
+input::placeholder {
+    transition: transform 0.2s;
+}
+
+input:focus::placeholder {
+    transform: scale(0.8);
+    transform-origin: top left;
+}
+
+
+
+
+button {
+    border-radius: 5px;
+    padding: 10px;
+    width: 31.5%;
+    background-color: #2160ff;
+    color: white;
+    border: none;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    background-color: #1b4cff82;
+    cursor: pointer;
+    transform: scale(1.02);
+}

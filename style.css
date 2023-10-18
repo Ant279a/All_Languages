@@ -1,0 +1,82 @@
+section {
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    height: 90vh;
+    width: 30%;
+}
+
+#friends-list h2 {
+    margin-left: 1rem;
+}
+
+#sidebar input {
+    margin-left: 1rem;
+    border-radius: 30px;
+    border-color: black;
+    border-width: 1px;
+    height: 2rem;
+    width: 80%;
+}
+
+
+#chat-area {
+    background-color:burlywood;
+    height: 90vh;
+    width: 100%;
+}
+
+.example-user {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+
+.example-user img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 1rem;
+    border-radius: 50%;
+}
+
+
+#friends-list {
+    height: 70%;
+}
+
+#add-friend {
+    background-color: rgba(48, 48, 194, 0.412);
+    height: 30%;
+    float: bottom;
+}
+
+#chat-area {
+    display: flex;
+    justify-content: center;
+}
+
+#chat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(215, 223, 245, 0.526);
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#message-box {
+    display: flex;
+    justify-content: flex-end;
+    height: 20%;
+    width: 100%;
+    background-color:black;
+    border-radius: 10px;
+}
